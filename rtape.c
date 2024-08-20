@@ -745,7 +745,8 @@ static void serve(void)
 
 static void usage(char *s)
 {
-  fprintf(stderr, "Usage: %s [-adqrv]\n", s);
+  fprintf(stderr, "Usage: %s [OPTIONS]\n", s);
+  fprintf(stderr, "Options:\n");
   fprintf(stderr, "  -a     Allow slashes in mount drive name.\n");
   fprintf(stderr, "  -d     Run as daemon.\n");
   fprintf(stderr, "  -p pre Enforce drive name starts with prefix [pre]\n");
